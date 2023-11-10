@@ -1,0 +1,21 @@
+<!-- Add a click event listener to a button that displays an alert when clicked.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="btn">Click me to get a alert message</button>
+  </body>
+  <script>
+    let btn = document.querySelector(".btn");
+    btn.addEventListener("click", () => {
+      alert("The button has been clicked");
+    });
+
+    //console.log(btn);
+  </script>
+</html>
